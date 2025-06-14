@@ -27,7 +27,6 @@ body {
     padding: 25px 30px;
     border-radius: 10px;
     font-size: var(--font-size);
-    height: 70vh;
     box-shadow: var(--shadow-button);
 }
 .game_container h2 {
