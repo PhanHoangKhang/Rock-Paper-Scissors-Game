@@ -27,6 +27,7 @@ body {
     padding: 25px 30px;
     border-radius: 10px;
     font-size: var(--font-size);
+    
     box-shadow: var(--shadow-button);
 }
 .game_container h2 {
@@ -96,4 +97,62 @@ body {
     background-color: rgb(165, 5, 5);
     transform: translateY(-2px);
     box-shadow: var(--shadow-for-button);
+}
+@media screen and (max-width: 800px) {
+.game_container {
+    font-size: 18px;
+    padding: 20px;
+    
+}
+.game_button button {
+    font-size: 4rem;
+    margin: 0 7px;
+    border: 2px solid var(--button-color);
+}
+.final_score {
+    gap: 1rem;
+    flex-direction: column;
+    font-size: 18px;
+    padding-left: 1rem;
+} 
+.result {
+    padding-left: 8px;
+}
+.result {
+    font-size: 18px;
+}
+.reset button {
+    font-size: 0.9rem;
+}   
+}
+@media screen and (max-width: 485px) {
+.reset button {
+    font-size: 0.7rem;
+}
+.game_button button {
+    font-size: 3rem;
+}
+.game_container {
+    font-size: 14px;
+    
+} 
+.final_score {
+    gap: 0.8rem;
+    font-size: 14px;
+}   
+}
+@media screen and (max-height: 1000px) {
+    body {
+        height: 100vh;
+    }
+}
+@media screen and (max-height: 725px) {
+    body {
+        height: 120vh;
+    }
+}
+@media screen and (max-height: 640px) {
+    body {
+        height: 135vh;
+    }
 }
